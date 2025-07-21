@@ -1,3 +1,4 @@
+TestJunMidSen
 ├── FirstTask/                      # Решение задачи 1 (компрессия/декомпрессия строки)
 │   ├── Compression.cs              # Алгоритм сжатия строки
 │   ├── Decompression.cs            # Алгоритм восстановления строки
@@ -25,10 +26,10 @@
 │    └── Utils/                     # Вспомогательные утилиты
 │        ├── GetPrefixedPath.cs     # Создание перфикса для валидного выходного файла
 │        └── LogLevelNormalizer.cs  # Нормализация уровней логирования
-│
-├── Tests/                         # Юнит-тесты для всех задач
+└── Program.cs                      # Точка входа (запуск задачи 3)
+TasksTests/                         # Юнит-тесты для всех задач
 │   ├── FirstTaskTests.cs
 │   ├── SecondTaskTests.cs
 │   └── ThirdTaskTests.cs
-│
-└── Program.cs                    # Точка входа (запуск задачи 3)
+
+                    
